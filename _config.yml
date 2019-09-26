@@ -1,51 +1,37 @@
-# Basic
-title: Vno Jekyll
-subtitle: A blog-orientation theme for Jekyll
-welcome_message: <a href="https://github.com/onevcat/vno-jekyll" target="_blank">Download the theme</a>
-description: Vno Jekyll is a port of my Ghost theme vno.
-creator: <a href="http://onev.cat">@onevcat</a>
+title: Azu's Blog
+author: Azu
+email: azulsidea@gmail.com
+description: > # this means to ignore newlines until "show_exerpts:"
+  It's Azu's blog. I hope it can help me to look back, collect, record and share.
+show_excerpts: true # set to true to show excerpts on the homepage
 
-url: "http://vno.onevcat.com"
+# Minima date format
+# refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
+sass:
+  sass_dir: _sass
 
-permalink: /:year/:month/:title/
+permalink: /posts/:title/
+texture:
+  title: Azu ZhangMian
+  tagline: Developer
+  date_format: "%b %-d, %Y"
+  style: black
+  showNav: false
+  showPicker: false
 
-# Format
-highlighter: rouge
+  # generate social links in footer
+  social_links:
+    github:  AzusZm
 
-# supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
-cover_color: red
 
-# The blog button should not be removed.
-blog_button:
-    title: Blog
-    description: Visit blog
+# If you want to link only specific pages in your header, uncomment
+# this and add the path to the pages in order as they should show up
+#header_pages:
+# - about.md
 
-# Navigation buttons in the front page.
-nav:
-    - {title: Projects, description: My Projects, url: 'http://project.onevcat.com'}
-    # - {title: Another Button, description: A button, url: 'http://example.com'}
+# Build settings
+# theme: texture
 
-# Pagination
-plugins: [jekyll-paginate]
-paginate: 10
-paginate_path: "page/:num/"
-
-# Comment
-comment:
-    disqus: vno-jekyll
-    # duoshuo: 
-    
-# Social
-social:
-    weibo: onevcat
-    github: onevcat
-    twitter: onevcat
-    gplus: 107108267983477358170
-    mail: onev@onevcat.com
-
-# Google Analytics
-ga:
-    # id: your_ga_id
-    # host: your_host
-
-theme: jekyll-theme-midnight
+plugins:
+  - jekyll-seo-tag
+#  - jekyll-feed
