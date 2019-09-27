@@ -21,7 +21,7 @@ categories: Javascript React
 
 ## React 快速入门
 
-### L1
+### 环境
 
 “React.js全家桶”，通过create-react-app来一键生成所需要的工程项目。
 
@@ -31,7 +31,7 @@ categories: Javascript React
 
 > 这个实际上使用了webpack的热更新技术，参考 https://yuque.antfin-inc.com/afx-es/ffb/otnnxb
 
-### L2
+### JSX
 
 1. JSX 是 JavaScript 语言的一种语法扩展，长得像 HTML，但并不是 HTML。
 2. React.js 可以用 JSX 来描述你的组件长什么样的。
@@ -42,3 +42,43 @@ categories: Javascript React
 
 1. 跨平台，react-dom react-canvas react-app(RN)
 2. 性能，不直接操作页面上的 DOM，可以尽量少的减少浏览器重排
+
+### Method Render
+
+1. React.js 中一切皆组件，一个组件类必须要实现一个 render 方法
+2. JSX中class, for属性需要通过className, htmlFor关键字来代替
+
+### 组件的组合、嵌套
+
+1. 在JSX中可以通过标签来引入自定义组件
+
+### 事件监听
+
+1. on*事件只能作用于HTML标签上
+2. React.js 会给每个事件监听传入一个 event 对象，这个对象提供的功能和浏览器提供的功能一致，而且它是兼容所有浏览器的。
+3. bind方法
+
+### Props
+
+1. 为了使得组件的可定制性更强，在使用组件的时候，可以在标签上加属性来传入配置参数。
+2. 组件可以在内部通过 this.props 获取到配置参数，组件可以根据 props 的不同来确定自己的显示形态，达到可配置的效果。
+3. 可以通过给组件添加类属性 defaultProps 来配置默认参数。
+4. props 一旦传入，你就不可以在组件内部对它进行修改。但是你可以通过父组件主动重新渲染的方式来传入新的 props，从而达到更新的效果。
+
+### State vs Props 
+
+1. State用于组件内部保存、控制、修改自身的状态，外部不能访问修改。
+2. Props让组件使用方通过参数来定制组件的样式、行为，对于组件内部只读。
+3. 函数式组件的方式来创建无状态组件
+
+### 渲染列表
+
+1. 通过map将数据数组转换成组件
+2. 每个页面元素必须得有key作为其唯一标识
+
+## React 进阶
+
+### React生命周期
+
+
+
