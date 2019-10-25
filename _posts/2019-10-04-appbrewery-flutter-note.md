@@ -92,3 +92,51 @@ LayoutWidget
 - ListTitle: with icon and title
 - Divider
 
+### 4-1 Dice App Introduction
+
+### 4-2 
+
+- Expanded use 'flex', like Android 'gravity' default is 1
+- mainAxis
+  - Row horizontal
+  - Column vertical
+- Image image.asset
+
+### 4-3
+
+- Use IDE to center widget: Android Studio tab 'Flutter Outline' > Click 'Center button'
+- light blub
+- opt/alt + enter
+
+### 4-4
+
+- FlatButton
+  - default has padding 16.0 to left and right
+  - onPress
+
+### 4-7 String Interpolation
+
+### 4-8 Dart Type
+
+- Dart: statically typed language
+- Dynamic Data Type
+
+### 4-9 Stateful
+
+- shortcut: stful
+- setState looking into build(), set what has changed
+  - change val inside setState()
+  - looking where is use this val inside build()
+  - mark widget as dirty
+  - redraw
+
+### 4-10 Dart Math
+
+### 5-2 Ext package
+
+Estimate package 综合以下几点:
+
+1. popularity 多少人已经使用了
+2. health 包的质量，如：代码是否优雅
+3. Frequently 作者更新的频率
+
