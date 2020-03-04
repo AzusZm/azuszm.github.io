@@ -3,7 +3,7 @@ layout: post
 title:  "Android interview"
 description: Record the key point need to be remember
 date:   2020-02-24 14:49:36 +0530
-categories: Fitness
+categories: Android
 ---
 
 ## Android basic
@@ -27,7 +27,7 @@ categories: Fitness
 
 4.2 保证网络通讯的安全手段一般有哪些？
 
-4.3 [摘要、签名、数字签名](https://www.cnblogs.com/ricklz/p/11306820.html)
+4.3 [摘要、签名、数字签名分别是什么？](https://www.cnblogs.com/ricklz/p/11306820.html)
 
 
 ## New tech
@@ -37,11 +37,17 @@ categories: Fitness
 
 5.3 图片处理框架
 
+5.4 Retrofit RxJava Okhttp如何工作？
+
+5.5 Flutter较RN的区别？
+
 ## Thinking
 6.1 技术方案确定的时候指导思想是什么？依据什么？
 
 6.2 怎么来评判代码的好坏？
 
 6.3 项目中风险有哪些？如何保证风险？
+
+6.4 MVP? MVVM?
 
 
